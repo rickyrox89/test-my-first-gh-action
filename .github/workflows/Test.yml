@@ -13,10 +13,10 @@ jobs:
       
       - name: Hello world action step
         id: hello
-        uses: rickyrox89/my-first-gh-action@v1.4
+        uses: rickyrox89/my-first-gh-action@v1.5
         with:
-          who-to-greet-2: 'Mona the Octocat'
-          who-to-greet-1: 'Riccardo'
+          whotogreet2: 'Mona the Octocat'
+          whotogreet1: 'Riccardo'
           
       # Use the output from the `hello` step
       - name: Get the output time
